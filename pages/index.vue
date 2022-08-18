@@ -1,5 +1,7 @@
 <template>
-  <Home />
+  <div class="main">
+    <Home />
+  </div>
 </template>
 
 <script>
@@ -9,13 +11,9 @@ export default {
 </script>
 
 <style>
-body {
-  height: 100vh;
-  width: 100%;
-  background-image: url("~/assets/homemade-background-faded.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-color: white;
+.main {
+  position: relative;
+  width: 100% !important;
+  overflow-x: hidden !important;
 }
 </style>
