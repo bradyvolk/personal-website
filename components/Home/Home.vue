@@ -37,17 +37,6 @@ export default {
   z-index: -100;
 }
 
-@media screen and (max-width: 1080px) {
-  .background-image {
-    overflow-x: hidden;
-    width: auto;
-    height: 100vh;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -56,12 +45,6 @@ export default {
 
 .landing {
   height: 65vw;
-}
-
-@media screen and (max-width: 1080px) {
-  .landing {
-    height: 95vh;
-  }
 }
 
 .header {
@@ -101,13 +84,6 @@ export default {
   margin-left: 5%;
 }
 
-@media screen and (max-width: 1080px) {
-  .my-name {
-    font-size: 2rem;
-    letter-spacing: 2px;
-  }
-}
-
 .my-position-container {
   height: 10vh;
   line-height: 10vh;
@@ -127,17 +103,40 @@ export default {
   margin-right: 5%;
 }
 
+.mobile-nav {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
 @media screen and (max-width: 1080px) {
+  .background-image {
+    overflow-x: hidden;
+    width: auto;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .landing {
+    height: 100vh;
+  }
+
   .my-position {
     font-size: 1rem;
     letter-spacing: 1px;
   }
-}
 
-@media screen and (max-width: 1080px) {
   .my-position-container {
     height: 1vh;
     line-height: 1vh;
+  }
+
+  .my-name {
+    font-size: 2rem;
+    letter-spacing: 2px;
   }
 }
 </style>
