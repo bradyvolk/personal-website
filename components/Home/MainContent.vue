@@ -20,8 +20,8 @@
         {{ buttonOption }}
       </button>
     </div>
-    <div class="mobile-nav">
-      <b-navbar toggleable="lg" type="dark" variant="info">
+    <div class="mobile-nav-container">
+      <b-navbar class="mobile-nav" toggleable="lg" type="dark" variant="info">
         <b-navbar-brand href="#">{{ selectedTab }}</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -76,10 +76,10 @@ export default {
 
 <style scoped>
 .tab-content {
-  height: 68vh;
+  height: 480px;
   display: flex;
   flex-direction: column;
-  padding: 0 5% 0 10%;
+  padding: 0 5% 2.5% 10%;
 }
 
 .tabs {
@@ -129,7 +129,7 @@ export default {
   }
 }
 
-.mobile-nav {
+.mobile-nav-container {
   visibility: hidden;
   position: absolute;
   bottom: 0;
@@ -137,8 +137,12 @@ export default {
 }
 
 @media screen and (max-width: 1080px) {
-  .mobile-nav {
+  .mobile-nav-container {
     visibility: visible;
+  }
+
+  .mobile-nav {
+    background-color: #1a3d5b !important;
   }
 
   .tabs {

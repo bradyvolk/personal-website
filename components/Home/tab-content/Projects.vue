@@ -20,7 +20,7 @@
         style="text-shadow: 1px 1px 2px #333"
       >
         <b-carousel-slide img-height="100px">
-          <h2>This Site</h2>
+          <h2>Personal Website</h2>
           <template #img>
             <div class="image-overlay">
               <a
@@ -89,7 +89,7 @@ export default {
 
 .projects-title {
   display: inline-block;
-  color: #1a3d5b;
+  color: #355c7e;
   font-weight: 600;
   font-size: 36px;
   letter-spacing: 4px;
@@ -103,14 +103,24 @@ export default {
 }
 
 .img-fade {
-  opacity: 65%;
+  opacity: 75%;
 }
 
 .image-overlay {
-  background-color: #132b3f;
+  background-color: #355c7e;
 }
 
 :deep(.carousel-item) {
   height: 340px;
+}
+
+@media screen and (max-width: 720px) {
+  :deep(.carousel-item) {
+    height: 15vh;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
 }
 </style>
