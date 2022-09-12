@@ -49,7 +49,7 @@ export default {
 }
 
 .portrait-caption {
-  font-size: 14px;
+  font-size: 0.75rem;
   font-style: italic;
   font-weight: 300;
   line-height: 5px;
@@ -62,15 +62,15 @@ export default {
 
 .about-title {
   display: inline-block;
-  color: #1a3d5b;
+  color: #355c7e;
   font-weight: 600;
-  font-size: 36px;
-  letter-spacing: 4px;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
   padding-bottom: 1rem;
 }
 
 .about-paragraph {
-  font-size: 14px;
+  font-size: 1rem;
   padding: 0;
 }
 
@@ -85,7 +85,7 @@ export default {
   }
 
   .portrait-caption {
-    font-size: 14px;
+    font-size: 0.75rem;
     font-style: italic;
     font-weight: 300;
     line-height: 1rem;

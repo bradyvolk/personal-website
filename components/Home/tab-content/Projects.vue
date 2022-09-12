@@ -91,14 +91,14 @@ export default {
   display: inline-block;
   color: #355c7e;
   font-weight: 600;
-  font-size: 36px;
-  letter-spacing: 4px;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
   padding-bottom: 1rem;
 }
 
 .projects-subtitle {
   display: inline-block;
-  font-size: 14px;
+  font-size: 1rem;
   padding-bottom: 0.5rem;
 }
 
@@ -120,7 +120,7 @@ export default {
   }
 
   h2 {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 </style>
