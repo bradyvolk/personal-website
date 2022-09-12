@@ -135,8 +135,13 @@ export default {
   }
 
   .my-name {
-    font-size: 2rem;
-    letter-spacing: 2px;
+    font-size: 24px;
+    letter-spacing: 0.25rem;
+  }
+
+  .my-position {
+    font-size: 16px;
+    letter-spacing: normal;
   }
 }
 </style>

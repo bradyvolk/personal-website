@@ -26,7 +26,7 @@ export default {
 .writing-title {
   display: inline-block;
   margin: 0rem 1rem;
-  color: #355c7e;
+  color: #1a3d5b;
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 0.5rem;
@@ -40,12 +40,21 @@ export default {
   margin: 1rem;
   padding: 2rem;
   height: 80%;
-  border: solid 1px #355c7e;
+  border: solid 1px #1a3d5b;
 }
 
 .writing-text {
-  color: #355c7e;
-  font-weight: 600;
+  color: #1a3d5b;
   font-size: 1.25rem;
+}
+
+@media screen and (max-width: 1080px) {
+  .writing-title {
+    font-size: 24px;
+  }
+
+  .writing-text {
+    font-size: 16px;
+  }
 }
 </style>

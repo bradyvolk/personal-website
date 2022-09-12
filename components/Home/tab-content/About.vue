@@ -62,7 +62,7 @@ export default {
 
 .about-title {
   display: inline-block;
-  color: #355c7e;
+  color: #1a3d5b;
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 0.5rem;
@@ -75,6 +75,10 @@ export default {
 }
 
 @media screen and (max-width: 1080px) {
+  .about-title {
+    font-size: 24px;
+  }
+
   .portrait {
     display: flex;
     flex-direction: column;
@@ -82,6 +86,7 @@ export default {
 
   .portrait-image {
     height: auto;
+    width: auto;
   }
 
   .portrait-caption {

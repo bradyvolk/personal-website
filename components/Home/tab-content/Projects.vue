@@ -89,7 +89,7 @@ export default {
 
 .projects-title {
   display: inline-block;
-  color: #355c7e;
+  color: #1a3d5b;
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 0.5rem;
@@ -107,7 +107,7 @@ export default {
 }
 
 .image-overlay {
-  background-color: #355c7e;
+  background-color: #1a3d5b;
 }
 
 :deep(.carousel-item) {
@@ -121,6 +121,10 @@ export default {
 
   h2 {
     font-size: 1rem;
+  }
+
+  .projects-title {
+    font-size: 24px;
   }
 }
 </style>
