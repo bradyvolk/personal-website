@@ -94,7 +94,7 @@ export default {
   width: 150px;
   height: 60px;
   background-color: #f7f2ff;
-  border-radius: 8px;
+  border-radius: 4px;
   border: 1px solid #1a3d5b;
   font-size: 22px;
   color: #1a3d5b;

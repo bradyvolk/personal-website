@@ -39,7 +39,6 @@ export default {
   background-color: #f7f2ff;
   margin: 1rem;
   height: 80%;
-  border: solid 1px #1a3d5b;
 }
 
 .writing-text {

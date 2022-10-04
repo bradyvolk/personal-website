@@ -11,6 +11,11 @@ export default {
     htmlAttrs: {
       lang: "en",
     },
+    script: [
+      {
+        src: "https://kit.fontawesome.com/c998bb27e3.js",
+      },
+    ],
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -20,11 +25,9 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ["@fortawesome/fontawesome-svg-core/styles.css"],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ["~/plugins/fontawesome.js"],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

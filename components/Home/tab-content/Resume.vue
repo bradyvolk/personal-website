@@ -6,6 +6,13 @@
     <div class="resume-content-container">
       <a class="resume-link" href="brady-volkmann-resume.pdf" target="_blank">
         <span class="resume-link-text"> Checkout my résumé </span>
+        <div class="file-icon-container">
+          <font-awesome-icon
+            class="light-icon"
+            icon="fa-regular fa-file-lines"
+          />
+          <font-awesome-icon class="dark-icon" icon="fa-solid fa-file-lines" />
+        </div>
       </a>
     </div>
   </div>
@@ -39,7 +46,6 @@ export default {
   background-color: #f7f2ff;
   margin: 1rem;
   height: 80%;
-  border: solid 1px #1a3d5b;
 }
 
 .resume-link {
@@ -51,6 +57,44 @@ export default {
   align-items: center;
   color: #212529;
   font-size: 1.25rem;
+}
+
+.resume-link-text {
+  padding: 1rem;
+}
+
+.file-icon-container {
+  padding: 1rem;
+}
+
+.dark-icon {
+  position: absolute;
+  color: #1a3d5b;
+  /* visibility: hidden; */
+  height: 32px;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.2s ease-in-out;
+}
+
+.light-icon {
+  position: absolute;
+  opacity: 1;
+  /* visibility: visible; */
+  color: #1a3d5b;
+  height: 32px;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.2s ease-in-out;
+}
+
+.resume-content-container:hover .dark-icon {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.resume-content-container:hover .light-icon {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 1080px) {
