@@ -25,7 +25,6 @@ export default {
 
 .writing-title {
   display: inline-block;
-  margin: 0rem 1rem;
   color: #1a3d5b;
   font-weight: 600;
   font-size: 2rem;
@@ -37,14 +36,13 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #f7f2ff;
   margin: 1rem;
-  padding: 2rem;
   height: 80%;
   border: solid 1px #1a3d5b;
 }
 
 .writing-text {
-  color: #1a3d5b;
   font-size: 1.25rem;
 }
 
