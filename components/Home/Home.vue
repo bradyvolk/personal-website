@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="box">
     <img class="background-image" src="homemade-background.png" />
     <div class="content">
       <div class="landing">
@@ -27,6 +27,12 @@ export default {
 </script>
 
 <style scoped>
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
 .background-image {
   opacity: 0.5;
   position: absolute;

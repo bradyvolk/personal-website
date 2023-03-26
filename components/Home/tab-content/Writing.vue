@@ -52,6 +52,7 @@ export default {
 
   .writing-text {
     font-size: 16px;
+    padding: 1rem;
   }
 }
 </style>

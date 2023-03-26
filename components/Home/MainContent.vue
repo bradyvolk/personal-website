@@ -147,6 +147,7 @@ export default {
 
   .tabs {
     visibility: hidden;
+    padding: 0rem;
   }
 
   .tab-content {

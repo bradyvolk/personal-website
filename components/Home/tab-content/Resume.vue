@@ -105,5 +105,9 @@ export default {
   .resume-text {
     font-size: 16px;
   }
+
+  .resume-content-container {
+    padding: 1rem;
+  }
 }
 </style>
